@@ -3,7 +3,7 @@ import json
 from time import time
 import sqlite3
 from flask import Flask, jsonify, request
-
+from werkzeug.urls import quote
 
 class Blockchain:
     def __init__(self):
